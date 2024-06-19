@@ -3,9 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAC10988-77C4-4784-876C-AE3FC8171683}"
+	ProjectSection(SolutionItems) = preProject
+		Index.css = Index.css
+		Index.html = Index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Index", "Index", "{440C00BB-0ACC-48B3-B489-AFC23937E261}"
+	ProjectSection(SolutionItems) = preProject
+		Index.css = Index.css
+		Index.html = Index.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{440C00BB-0ACC-48B3-B489-AFC23937E261} = {FAC10988-77C4-4784-876C-AE3FC8171683}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7DADE723-19DC-4045-A278-BAC127BCC051}
