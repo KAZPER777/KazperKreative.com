@@ -5,8 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAC10988-77C4-4784-876C-AE3FC8171683}"
 	ProjectSection(SolutionItems) = preProject
-		Index.css = Index.css
-		Index.html = Index.html
+		index(Maintenance).css = index(Maintenance).css
+		index(maintenance).html = index(maintenance).html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Index", "Index", "{440C00BB-0ACC-48B3-B489-AFC23937E261}"
