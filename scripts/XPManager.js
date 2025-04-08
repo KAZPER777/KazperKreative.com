@@ -38,5 +38,8 @@ const XPManager = {
     }
   };
   
-  window.onload = () => XPManager.init();
+  window.addEventListener("DOMContentLoaded", () => {
+    XPManager.init();
+  });
+  
   
