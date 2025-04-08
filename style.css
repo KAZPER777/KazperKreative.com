@@ -1,0 +1,119 @@
+/* Reset + base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, #1e003d, #001530);
+    min-height: 100vh;
+  }
+  
+  /* Header */
+  .headerNav {
+    background-color: rgba(0, 0, 30, 0.8);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(6px);
+    border-bottom: 2px solid #ff1fb1;
+  }
+  
+  .nav-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #ffffffcc;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    background-color: #ff1fb1;
+    color: #ffffff;
+  }
+  
+  /* Logo */
+  .logo img {
+    height: 60px;
+  }
+  
+  /* Main content */
+  .main-section {
+    display: flex;
+    height: 80vh;
+  }
+  
+  .half-section {
+    flex: 1;
+    border: 1px solid #ff1fb1;
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+  }
+  
+  /* Bots Page */
+  .bots-page {
+    max-width: 800px;
+    margin: 4rem auto;
+    text-align: center;
+  }
+  
+  .bot-card {
+    background-color: #150036;
+    padding: 2rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    box-shadow: 0 0 20px rgba(255, 31, 177, 0.3);
+  }
+  
+  .bot-card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .bot-button {
+    background-color: #00c0ff;
+    color: #1e003d;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+  
+  .bot-button:hover {
+    background-color: #ff1fb1;
+    color: #fff;
+    transform: scale(1.05);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background: #00000022;
+    border-top: 1px solid #ff1fb1;
+  }
+  
