@@ -61,6 +61,19 @@ body, html {
   margin: auto;
 }
 
+.panel.left {
+  padding: 1rem;
+  font-family: "Orbitron", sans-serif;
+  color: #fff;
+}
+
+#xpDisplay {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  color: #90f0ff;
+}
+
+
 .main-section {
   display: flex;
   height: 80vh;
