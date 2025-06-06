@@ -302,3 +302,61 @@ body, html {
 .contact-card a:hover {
   text-decoration: underline;
 }
+
+/* Studio Carousel Sections */
+.studio-carousel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.studio-carousel:hover {
+  transform: scale(1.015);
+}
+
+/* Responsive Grid for All Studios Together (if desired) */
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem 1rem;
+  gap: 2rem;
+}
+
+/* Responsive Banner Card Flex Behavior */
+.banner-card {
+  flex: 1 1 300px;
+  min-height: 450px;
+  max-width: 550px;
+}
+
+/* Make images adapt better in responsive layouts */
+.banner-image {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Optional: Improve layout on smaller screens */
+@media (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    padding-left: 0;
+  }
+
+  .banner-card {
+    max-width: 90vw;
+    aspect-ratio: auto;
+  }
+
+  .banner-overlay h2 {
+    font-size: 1.4rem;
+  }
+
+  .banner-overlay p {
+    font-size: 0.9rem;
+  }
+}
