@@ -35,6 +35,12 @@ const XPManager = {
   
     updateUI() {
       document.getElementById("xpDisplay").innerText = `Level ${this.level} — ${this.xp} XP`;
+      const fillEl = document.getElementById("xpFill");
+    if (fillEl) {
+    const percent = (this.xp / (this.level * 100)) * 100;
+    fillEl.style.width = `${percent}%`;
+}
+
     }
   };
   
