@@ -48,4 +48,3 @@ const XPManager = {
     XPManager.init();
   });
   
-  
