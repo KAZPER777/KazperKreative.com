@@ -85,25 +85,6 @@ body, html {
   transition: width 0.4s ease-in-out;
 }
 
-/* Main Section */
-.main-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  padding-left: 250px; /* Padding to not overlap XP panel */
-  gap: 2rem;
-}
-
-.half-section {
-  flex: 1;
-  border: 1px solid #ff1fb1;
-  margin: 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-}
 
 /* Creator Showcase */
 .creator-showcase {
